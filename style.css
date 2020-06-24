@@ -7,7 +7,82 @@ html,
 body {
 	width: 100%;
 	height: 100%;
+	background-color: #DCDCDC;
 }
 .display-off {
 	display: none;
+}
+
+/* Navbar */
+nav {
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#alex, #mame, #oguz {
+	position: relative;
+}
+
+#logos img {
+	border-radius: 50%;
+	height: 140px;
+	border-style: double;
+	border-width: 5px;
+	border-color: #778899;
+	box-shadow:  0 0 0 5px hsl(0, 0%, 80%),
+	0 0 0 10px hsl(0, 0%, 90%);;
+	opacity: 1;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+  }
+
+  #alex:hover .image, #mame:hover .image, #oguz:hover .image {
+	  opacity: 0.3;
+  }
+
+#alex:hover .middle, #mame:hover .middle, #oguz:hover .middle {
+	  opacity: 1;
+  }
+
+.text {
+	background-color: #696969;
+	border-radius: 50%;
+	color: white;
+	font-size: 16px;
+	padding: 10px;
+  }
+
+#logos {
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 50px;
+}
+
+#instruction {
+	font-size: 50px;
+	color: #778899;
+	border-style: groove;
+	border-color: #A9A9A9;
+	border-radius: 0.25em;
+	margin-right: 50px;
+}
+
+#instruction:hover {
+	background-color: #696969;
+	color: #DCDCDC;
+	box-shadow: 0 8px 6px -6px black;
 }
