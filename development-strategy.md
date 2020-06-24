@@ -23,28 +23,26 @@ A basic web page aim to learn js, debugging and developed collaboratively using 
 
 ---
 
-## 1.
+## 1. Section-1
 
-**As a site visitor, I want to see**
+**As a site visitor, I want to make my inputs reset ,see the last result and get instruction information**
 
 > assigned to `Mame`  
 > reviewers `Oguz` and `Aleksandra`
 
 ## Repo
 
-This user story was developed on a branch called `repeat_reverse_string`
+This user story was developed on a branch called `section -1`
 
 ### HTML
 
-- Add h2 tags to give a title to the articles
-- Add Onlick events to make element dynamics
-- Add button tags
+- Add div tags
+- give class to div tags
 
 ### CSS
 
-- style article article5&6
-- Add img as background
-- Add font family
+- style section-1
+- Add background to buttons
 - Align items to center used flexbox
 
 ## JS
@@ -66,18 +64,24 @@ This user story was developed on a branch called `section-2`
 
 ### HTML
 
-- Add div tags
-- give class to div tags
+- Added `div` tags
+- Added `form` tag
+- Added `input` tag
+- Added `button` tag
+- Gave `class` attribute some tags
 
 ### CSS
 
-- style section-1
-- Add background to buttons
-- Align items to center used flexbox
+- Styled section-2
+- Used `flex` features for aligning
+- Used `width: ..%;` features for responsive view
+- Added background to buttons and inputs
 
 ## JS
 
-- add event listener to buttons
+- There is nothing to change
+
 ## Readme
 
 - complete readme file
+- add event listener to buttons
