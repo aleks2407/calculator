@@ -11,3 +11,49 @@ body {
 .display-off {
 	display: none;
 }
+
+
+/* section-2 */
+
+.section-2 {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+div.enter-form {
+	width: 70%;
+	margin: auto;
+}
+div.enter-form form {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+div.enter-form form input {
+	width: 44%;
+	height: 50px;
+	border-style: none;
+	background-color: lightskyblue;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: monospace;
+}
+div.enter-form form input:hover {
+	background-color: yellow;
+}
+.operator-buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 70%;
+	margin: auto;
+	margin-top: 30px;
+}
+.operator-buttons button {
+	width: 16%;
+	height: 50px;
+	border-style: none;
+	background-color: lightgreen;
+	font-size: 30px;
+	font-family: monospace;
+}

@@ -53,6 +53,31 @@ This user story was developed on a branch called `repeat_reverse_string`
 - check result of the prompt function then convert to number
 - Show result of input to developers via console log
 
+## 3. Section-2
+
+**As a site visitor, I would like to do some math operations and enter values ​​as numbers**
+
+> assigned to `Oguz`  
+> reviewers `Mame` and `Aleksandra`
+
+## Repo
+
+This user story was developed on a branch called `section-2`
+
+### HTML
+
+- Add div tags
+- give class to div tags
+
+### CSS
+
+- style section-1
+- Add background to buttons
+- Align items to center used flexbox
+
+## JS
+
+- add event listener to buttons
 ## Readme
 
 - complete readme file
