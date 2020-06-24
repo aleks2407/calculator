@@ -85,3 +85,30 @@ This user story was developed on a branch called `section-2`
 
 - complete readme file
 - add event listener to buttons
+
+## Readme
+
+- complete readme file
+
+## 2. Upper section of the website
+
+**As a site visitor, I want to see three logos in the left upper corner of the main page. The logos are the photos of the creators of the website. The logos are located in the left upper corner of the page. In the right upper corner is located button INFO, press the button and get the instructions.**
+
+> assigned to `Aleksandra`  
+> reviewers `Mamé` and `Oguz`
+
+## Repo
+
+This user story was developed on a branch called `nav-bar`
+
+### HTML
+
+- Add three images inside of the nav
+
+### CSS
+
+- Align the images in the left upper corner of the page
+- Align the button INFO to the right upper corner
+- Add background for the body
+- Style images
+- Style button INFO
