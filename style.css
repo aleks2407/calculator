@@ -132,22 +132,23 @@ nav {
 	font-weight: 600;
 }
 /* section-2 */
+
 .section-2 {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 50px;
+	margin-top: 30px;
 }
 div.enter-form {
-	width: 70%;
+	width: 50%;
 	margin: auto;
 }
 div.enter-form form {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 }
 div.enter-form form input {
-	width: 44%;
+	width: 100%;
 	height: 50px;
 	border-style: none;
 	background-color: lightskyblue;
@@ -162,12 +163,12 @@ div.enter-form form input:hover {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 70%;
+	width: 50%;
 	margin: auto;
 	margin-top: 30px;
 }
 .operator-buttons button {
-	width: 16%;
+	width: 20%;
 	height: 50px;
 	border-style: none;
 	background-color: lightgreen;
