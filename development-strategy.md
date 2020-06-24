@@ -47,6 +47,43 @@ This user story was developed on a branch called `section -1`
 
 ## JS
 
+- wrote logic for main functions to repeat and reverse strings
+- check result of the prompt function then convert to number
+- Show result of input to developers via console log
+
+## 3. Section-2
+
+**As a site visitor, I would like to do some math operations and enter values ​​as numbers**
+
+> assigned to `Oguz`  
+> reviewers `Mame` and `Aleksandra`
+
+## Repo
+
+This user story was developed on a branch called `section-2`
+
+### HTML
+
+- Added `div` tags
+- Added `form` tag
+- Added `input` tag
+- Added `button` tag
+- Gave `class` attribute some tags
+
+### CSS
+
+- Styled section-2
+- Used `flex` features for aligning
+- Used `width: ..%;` features for responsive view
+- Added background to buttons and inputs
+
+## JS
+
+- There is nothing to change
+
+## Readme
+
+- complete readme file
 - add event listener to buttons
 
 ## Readme
