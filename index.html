@@ -1,22 +1,71 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Free Web design, Calculator" />
+		<meta name="keywords" content="HTML, CSS, JavaScript" />
+		<meta name="author" content="Mame, Oguz , Aleksandra" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset='utf8'>
-  <title>prompt, alert, calculate</title>
+		<script src="./review-buttons/init.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>Calculator</title>
+	</head>
 
-  <!-- load the styles -->
+	<body>
+		<!--nav part for Alex-->
+		<nav>
+			<div>
+				<img src="./img/" alt="alEX img" />
+				<img src="./img/" alt="Mame img" />
+				<img src="./img/" alt="Oguz img" />
+			</div>
 
-  <!-- load the shared data -->
+			<div>
+				<button>INFO</button>
+			</div>
+		</nav>
 
-  <!-- load the handler scripts -->
+		<!-- Section 1 for Mame-->
 
+		<section class="section-1">
+			<button>RESET</button>
+			<header><h1>RESULT</h1></header>
+			<button>DISPLAY</button>
+		</section>
+		<!-- Section 2 for Oguz-->
+		<section class="section-2">
+			<!--this h2 tag for validation warning please leave it here :)-->
+			<h2 class="display-off">four operations</h2>
+			<div>
+				<form>
+					<!-- Please do not change input ids thus we wan work on it without conflict-->
+					<input type="text" id="input-first" />
+					<input type="text" id="input-second" />
+				</form>
+			</div>
+			<div>
+				<button>+</button>
+				<button>-</button>
+				<button>/</button>
+				<button>X</button>
+			</div>
+		</section>
 
-  <!-- Leave this here!  It renders the review buttons  -->
-  <script src='./review-buttons/init.js'></script>
+		<!-- add&dived  js for Alex
+        ins&last&reset js for Mame
+        mul&sub js for Oguz
 
-</head>
-
-<body></body>
-
+        we are flexible so in time we can change plans
+  -->
+		<!-- Js files-->
+		<script src="./scripts/shared-variables.js"></script>
+		<script src="./scripts/handlers/add.js"></script>
+		<script src="./scripts/handlers/divide.js"></script>
+		<script src="./scripts/handlers/instructions.js"></script>
+		<script src="./scripts/handlers/last-result-display.js"></script>
+		<script src="./scripts/handlers/last-result-reset.js"></script>
+		<script src="./scripts/handlers/multiply.js"></script>
+		<script src="./scripts/handlers/subtract.js"></script>
+	</body>
 </html>
