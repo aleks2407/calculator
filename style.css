@@ -32,7 +32,7 @@ nav {
 	border-width: 5px;
 	border-color: #778899;
 	box-shadow:  0 0 0 5px hsl(0, 0%, 80%),
-	0 0 0 10px hsl(0, 0%, 90%);;
+	0 0 0 10px hsl(0, 0%, 90%);
 	opacity: 1;
 	transition: .5s ease;
 	backface-visibility: hidden;
@@ -68,7 +68,7 @@ nav {
 #logos {
 	width: 30%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	margin-left: 50px;
 }
 
