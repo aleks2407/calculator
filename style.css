@@ -57,6 +57,9 @@ div.enter-form form input:hover {
 	font-size: 30px;
 	font-family: monospace;
 }
+.operator-buttons button:hover {
+	background-color: teal;
+}
 
 /*Section -1*/
 .section-1 {
