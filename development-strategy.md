@@ -23,35 +23,31 @@ A basic web page aim to learn js, debugging and developed collaboratively using 
 
 ---
 
-## 1.
+## 1. Section-1
 
-**As a site visitor, I want to see**
+**As a site visitor, I want to make my inputs reset ,see the last result and get instruction information**
 
 > assigned to `Mame`  
 > reviewers `Oguz` and `Aleksandra`
 
 ## Repo
 
-This user story was developed on a branch called `repeat_reverse_string`
+This user story was developed on a branch called `section -1`
 
 ### HTML
 
-- Add h2 tags to give a title to the articles
-- Add Onlick events to make element dynamics
-- Add button tags
+- Add div tags
+- give class to div tags
 
 ### CSS
 
-- style article article5&6
-- Add img as background
-- Add font family
+- style section-1
+- Add background to buttons
 - Align items to center used flexbox
 
 ## JS
 
-- wrote logic for main functions to repeat and reverse strings
-- check result of the prompt function then convert to number
-- Show result of input to developers via console log
+- add event listener to buttons
 
 ## Readme
 

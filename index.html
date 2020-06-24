@@ -47,13 +47,23 @@
 		<!-- Section 1 for Mame-->
 		<!-- Please do not change ids name-->
 		<section class="section-1">
-			<button id="reset">RESET</button>
-			<header>
-				<h1>RESULT</h1>
-				<p id="result">0</p>
-			</header>
-			<button id="display">DISPLAY</button>
+			<div class="section-1-main_box">
+				<div class="reset-box">
+					<button id="reset">RESET</button>
+				</div>
+
+				<header>
+					<div class="reset-box">
+						<h1>RESULT</h1>
+						<p id="result">0</p>
+					</div>
+				</header>
+				<div class="display-box">
+					<button id="display">DISPLAY</button>
+				</div>
+			</div>
 		</section>
+
 		<!-- Section 2 for Oguz-->
 		<section class="section-2">
 			<!--this h2 tag for validation warning please leave it here :)-->
@@ -80,13 +90,13 @@
 
         we are flexible so in time we can change plans
   -->
+		<script src="./scripts/handlers/last-result-reset.js"></script>
 		<!-- Js files-->
 		<script src="./scripts/shared-variables.js"></script>
 		<script src="./scripts/handlers/add.js"></script>
 		<script src="./scripts/handlers/divide.js"></script>
 		<script src="./scripts/handlers/instructions.js"></script>
 		<script src="./scripts/handlers/last-result-display.js"></script>
-		<script src="./scripts/handlers/last-result-reset.js"></script>
 		<script src="./scripts/handlers/multiply.js"></script>
 		<script src="./scripts/handlers/subtract.js"></script>
 	</body>
