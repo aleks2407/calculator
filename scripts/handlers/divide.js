@@ -12,7 +12,7 @@ function divide(x, y) {
   if (typeof x !== 'number') { throw new TypeError('x'); }
   if (typeof y !== 'number') { throw new TypeError('y'); }
 
-  const result = y / x;
+  const result = x / y;
 
   if (typeof result !== 'number') { throw new TypeError('result'); }
   return result;
