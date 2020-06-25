@@ -171,7 +171,7 @@ This user story was developed on a branch called `add-function`
 - Use method `document.getElementById('').innerHTML =  ;` to display the result on the assigned place in HTML
 - Reassign `lastResult`
 
-## 7. Subtract
+## 6. Subtract
 
 **As a site visitor, I would like to enter a number and see the result of subtracting the last result by my number**
 
@@ -197,3 +197,31 @@ This user story was developed on a branch called `subtract`
 - Used `Number()` converting method 
 - Wrote a function to subtract the last result by user's input
 - Used `document.getElementById('').innerHTML =  ;` feature for displaying the result
+
+## 7. Divide function
+
+**As a site visitor, I would like to enter a number and see the result of dividing the last result by the entered number**
+
+> assigned to `Aleksandra`  
+> reviewers `Mame` and `Oguz`
+
+## Repo
+
+This user story was developed on a branch called `divide-function`
+
+### HTML
+
+- Add __onclick="divideHandler()"__ to the button `/` to make it active
+
+### CSS
+
+- Media Queries to make the navigation bar responsive
+
+## JS
+
+- Use method `document.getElementById('').value` feature to read the input of the user
+- Use function `Number()` in order to convert the user's input into a number type of the value
+- Function `divide` to divide two numbers
+- Use method `document.getElementById('').innerHTML =  ;` to display the result on the assigned place in HTML
+- Reassign `lastResult`
+
