@@ -113,6 +113,33 @@ This user story was developed on a branch called `nav-bar`
 - Style images
 - Style button INFO
 
+## 3. Add function
+
+**As a site visitor, I would like to enter a number and see the result of adding my number to the last result**
+
+> assigned to `Aleksandra`  
+> reviewers `Mame` and `Oguz`
+
+## Repo
+
+This user story was developed on a branch called `add-function`
+
+### HTML
+
+- Add __onclick="addHandler()"__ to the button `+` to make it active
+
+### CSS
+
+- There is nothing new
+
+## JS
+
+- Use method `document.getElementById('').value` feature to read the input of the user
+- Use function `Number()` in order to convert the user's input into a number type of the value
+- Function `add` to add two numbers
+- Use method `document.getElementById('').innerHTML =  ;` to display the result on the assigned place in HTML
+- Reassign `lastResult`
+
 ## 4. Multiply
 
 **As a site visitor, I would like to enter a number and see the result of multiplying between my number and last result**
