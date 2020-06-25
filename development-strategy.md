@@ -171,6 +171,29 @@ This user story was developed on a branch called `add-function`
 - Use method `document.getElementById('').innerHTML =  ;` to display the result on the assigned place in HTML
 - Reassign `lastResult`
 
+## 7. Subtract
 
+**As a site visitor, I would like to enter a number and see the result of subtracting the last result by my number**
 
+> assigned to `Oguz`  
+> reviewers `Mame` and `Aleksandra`
 
+## Repo
+
+This user story was developed on a branch called `subtract`
+
+### HTML
+
+- I have added `form`, `input` and `button` tag in `section-2` branch
+- Used `button` tag with `onclick` attribute for running the subtracting function
+
+### CSS
+
+- There is nothing to change
+
+## JS
+
+- Used `document.getElementById('').value` feature for taking user input
+- Used `Number()` converting method 
+- Wrote a function to subtract the last result by user's input
+- Used `document.getElementById('').innerHTML =  ;` feature for displaying the result
