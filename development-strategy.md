@@ -140,3 +140,29 @@ This user story was developed on a branch called `multiply`
 - Wrote a function to multiply between user input and last result
 - Used `document.getElementById('').innerHTML =  ;` feature for displaying the result
 
+## 6. Divide function
+
+**As a site visitor, I would like to enter a number and see the result of dividing the last result by the entered number**
+
+> assigned to `Aleksandra`  
+> reviewers `Mame` and `Oguz`
+
+## Repo
+
+This user story was developed on a branch called `divide-function`
+
+### HTML
+
+- Add __onclick="divideHandler()"__ to the button `/` to make it active
+
+### CSS
+
+- Media Queries to make the navigation bar responsive
+
+## JS
+
+- Use method `document.getElementById('').value` feature to read the input of the user
+- Use function `Number()` in order to convert the user's input into a number type of the value
+- Function `divide` to divide two numbers
+- Use method `document.getElementById('').innerHTML =  ;` to display the result on the assigned place in HTML
+- Reassign `lastResult`

@@ -20,6 +20,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 50px;
 }
 
 #alex, #mame, #oguz {
@@ -179,3 +180,49 @@ div.enter-form form input:hover {
 	background-color: teal;
 }
 
+/* Media Queries */
+
+@media(max-width: 1600px) {
+	#logos img {
+		height: 80px;
+	}
+	#instruction {
+		font-size: 40px;
+	}
+	.text {
+		font-size: 10px;
+		padding: 10px;
+	  }
+}
+
+
+@media(max-width: 1100px) {
+	#logos {
+		width: 45%;
+	}
+	#instruction {
+		font-size: 30px;
+	}
+	.text {
+		font-size: 10px;
+		padding: 10px;
+	  }
+}
+
+@media(max-width: 620px) {
+	#logos {
+		width: 90%;
+		margin-left: 10px;
+	}
+	#logos img {
+		height: 50px;
+	}
+	#instruction {
+		font-size: 20px;
+		margin-right: 10px;
+	}
+	.text {
+		font-size: 7px;
+		padding: 10px;
+	  }
+}
