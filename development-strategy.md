@@ -112,3 +112,31 @@ This user story was developed on a branch called `nav-bar`
 - Add background for the body
 - Style images
 - Style button INFO
+
+## 4. Multiply
+
+**As a site visitor, I would like to enter a number and see the result of multiplying between my number and last result**
+
+> assigned to `Oguz`  
+> reviewers `Mame` and `Aleksandra`
+
+## Repo
+
+This user story was developed on a branch called `multiply`
+
+### HTML
+
+- I have added `form`, `input` and `button` tag in `section-2` branch
+- Used `button` tag with `onclick` atribute for running the multiply function
+
+### CSS
+
+- Changed some style features in `style.css`
+
+## JS
+
+- Used `document.getElementById('').value` feature for taking user input
+- Used `Number()` converting method 
+- Wrote a function to multiply between user input and last result
+- Used `document.getElementById('').innerHTML =  ;` feature for displaying the result
+
